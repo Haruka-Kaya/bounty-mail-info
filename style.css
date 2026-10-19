@@ -1,0 +1,6 @@
+:root { --text: #1b1b1b; --paper: #fff; --link: #003eaa; }
+body { margin: 0; color: var(--text); background: var(--paper); font: 1rem/1.75 system-ui, sans-serif; }
+main { max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; overflow-wrap: anywhere; }
+h1 { line-height: 1.4; } h2 { margin-top: 2rem; line-height: 1.5; }
+a { color: var(--link); text-underline-offset: .2em; }
+nav { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 2rem; }
